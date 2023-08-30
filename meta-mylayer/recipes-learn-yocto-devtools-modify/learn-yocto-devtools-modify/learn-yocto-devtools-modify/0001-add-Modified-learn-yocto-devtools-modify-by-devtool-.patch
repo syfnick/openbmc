@@ -1,0 +1,21 @@
+From ae60ff8759d9e3651eebdb392ebe5d1b63923248 Mon Sep 17 00:00:00 2001
+From: Nick Sun <nick_sun@asus.com>
+Date: Mon, 28 Aug 2023 17:23:36 +0800
+Subject: [PATCH] add Modified learn-yocto-devtools-modify by devtool output
+
+---
+ main.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/main.c b/main.c
+index d6a03fd..aea3188 100644
+--- a/main.c
++++ b/main.c
+@@ -3,6 +3,7 @@
+ int main (int argc, char **argv)
+ {
+     printf ("Hello from learn-yocto-devtools-modify\n");
++    printf ("Modified learn-yocto-devtools-modify by devtool\n");
+ 
+     return 0;
+ }
